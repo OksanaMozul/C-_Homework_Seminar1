@@ -26,12 +26,40 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
+//  Console.WriteLine("Введите 3 числа:");
+//             int num_1 = Convert.ToInt32(Console.ReadLine());
+//             int num_2 = Convert.ToInt32(Console.ReadLine());
+//             int num_3 = Convert.ToInt32(Console.ReadLine());
+
+//             int max = num_1;
+
+//             if (num_2 > max)
+//             {
+//                 max = num_2;
+//             }
+
+//             if (num_3 > max)
+//             {
+//                 max = num_3;
+//             }
+
+//             Console.WriteLine("Наибольшее из введённых чисел:  " + max);
+
+
+
 // Задача 3: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 
 // 4 -> да
 // -3 -> нет
 // 7 -> нет
 
+{
+    Console.WriteLine("Введите число : ");
+    int a = Convert.ToInt32(Console.Read());
+    if (a % 2 == 0) Console.WriteLine("Четное");
+    else Console.WriteLine("Нечетное");
+
+}
 // Задача 4: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
 // 5 -> 2, 4
